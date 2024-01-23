@@ -1,0 +1,19 @@
+{
+  "name": "grupo-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest /Simulacao/Sprint 3/tests --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "crypto-js": "^4.2.0",
+    "fs": "^0.0.1-security",
+    "jest": "^29.7.0",
+    "redis": "^4.6.10"
+  }
+}

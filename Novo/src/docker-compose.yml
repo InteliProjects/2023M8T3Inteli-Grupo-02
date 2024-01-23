@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  flask-api:
+    build: ./modeloAPI
+    ports:
+      - "5000:5000"
+    restart: always
+
+  node-app:
+    build: ./backend
+    ports:
+      - "3001:3001"
+    restart: always
